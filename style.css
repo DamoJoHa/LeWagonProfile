@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+body {
+  background-color: #EBFFFB;
+  color: #1D1A31;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-family: 'Comfortaa', curvsive;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 35px;
+}
+
+a {
+  color: #326771;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DA667B;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: 0;
+}
+
+.list-horizontal li {
+  display: inline;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.card {
+  display: block;
+  background-color: white;
+  border: 2px solid #0D5D56;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.shadowed {
+  box-shadow: 1px 3px 6px #0D5D56;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon-big {
+  font-size: 50px;
+  margin: 0 10px;
+}
